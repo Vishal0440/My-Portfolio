@@ -108,7 +108,7 @@ nav ul li a:hover::after{
     width: 40%;
 }
 .about-col-1 img{
-    width: 70%;
+    width: 60%;
     border-radius: 50%;
     animation: slide 1s infinite linear alternate;
 }
