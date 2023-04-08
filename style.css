@@ -374,11 +374,15 @@ nav .fa-solid{
         margin-bottom: 1rem;
     }
     .about-col-1>img{
-        width: 100%;
+        width: 80%;
+        margin-left: 2rem;
     }
     .about-col-2{
         width: 100%;
         font-size: 1rem;
+    }
+    .skill-list h2{
+        font-size: 1.5rem;
     }
     .contact-right{
         width: 100%;
