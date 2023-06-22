@@ -106,9 +106,10 @@ nav ul li a:hover::after{
 }
 .about-col-1{
     width: 40%;
+    text-align: center;
 }
 .about-col-1 img{
-    width: 60%;
+    width: 50%;
     border-radius: 50%;
     animation: slide 1s infinite linear alternate;
 }
@@ -374,8 +375,7 @@ nav .fa-solid{
         margin-bottom: 1rem;
     }
     .about-col-1>img{
-        width: 80%;
-        margin-left: 2rem;
+        width: 60%;
     }
     .about-col-2{
         width: 100%;
