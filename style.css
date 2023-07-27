@@ -12,7 +12,7 @@ body{
     color: #fff;
 }
 .container{
-    padding: 0 4rem;
+    padding: 0 3rem;
 }
 .mainHeader{
     padding-top: 10rem;
@@ -202,10 +202,6 @@ nav ul li a:hover::after{
     justify-content: space-between;
 
 }
-.work-do p{
-    margin-top: 1rem;
-    color: #ababab;
-}
 .work-do i{
     color: #ff004f;
     margin: 1.5rem 1rem;
@@ -213,6 +209,7 @@ nav ul li a:hover::after{
 .work p{
     color: #ababab;
     margin-bottom: 1rem;
+    margin-top: 1rem;
     font-size: 1.2rem;
     text-transform: capitalize;
 }
@@ -229,6 +226,11 @@ nav ul li a:hover::after{
 }
 .btn:hover{
     background: #ff004f;
+}
+.work-do>a{
+    text-decoration: none;
+    color: #ff004f;
+
 }
 
 /* <!-----------contact---------  --> */
@@ -315,6 +317,7 @@ nav .fa-solid{
     color: #c8babf;
 }
 
+
 /* ------------css for small screen---------------- */
 
 @media only screen and (max-width: 768px){
@@ -324,7 +327,7 @@ nav .fa-solid{
     nav .fa-solid{
         display: block;
         font-size: 1.5rem;
-        margin: 15px 35px;
+        margin: 15px 25px;
     } 
     .imgSection{
         width: 100%;
@@ -344,14 +347,14 @@ nav .fa-solid{
         top: 0;
         background-color: #ff004f;
         right: -150px;
-        width: 150px;
+        width: 120px;
         height: 100vh;
         padding-top: 2rem;
+        text-align: start;
         z-index: 2;
         transition: right 0.5s;
     }
     nav ul li{
-        margin: 1rem;
         padding: 0.5rem;
         display: block;
     }
@@ -363,7 +366,7 @@ nav .fa-solid{
     nav ul .fa-solid{
         position: absolute;
         top: 0;
-        left: 1.6rem;
+        left: 15px;
         cursor: pointer;
     }
     .sub-title{
@@ -389,5 +392,18 @@ nav .fa-solid{
     }
     .contact-left{
         width: 100%;
+    }
+    .work-list{
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    }
+    .work p{
+        font-size: 1rem;
+    }
+    .work-do>a{
+        font-size: 15px;
+    }
+    .work-do i{
+        color: #ff004f;
+        margin: 1.1rem 0.5rem;
     }
 }
